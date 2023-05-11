@@ -30,15 +30,7 @@ export default function InvertSignalSymbol({color}){
             }}>
                 -
             </Text>
-            {/* <Text
-            style={{
-                color: color,
-                fontSize: 36,
-                position: 'absolute',
-                // bottom: '10%',
-                right: '35%'
-            }}
-            >%</Text> */}
+            {}
         </>
     )
 }

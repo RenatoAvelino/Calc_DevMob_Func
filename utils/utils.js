@@ -28,7 +28,7 @@ export function executeOperation(operation) {
     const splitedOperation = operation.match(regexOperation)
         .slice(1)
 
-    if (!splitedOperation) throw 'operação invalida'
+    if (!splitedOperation) throw 'Operação Invalida'
 
     const values = removeParenthesis([splitedOperation[0], splitedOperation[2]])
 
@@ -39,7 +39,7 @@ export function executeOperation(operation) {
         case timesSign: result = values[0] * values[1]
             break;
         case '÷':
-            if (values[1] === 0) throw 'não tem como dividir por 0'
+            if (values[1] === 0) throw 'Operação Invalida: divisão por 0'
             result = values[0] / values[1]
             break;
         case '+': result = values[0] + values[1]

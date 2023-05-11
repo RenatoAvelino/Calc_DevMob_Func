@@ -265,6 +265,7 @@ const styles = StyleSheet.create({
     flex: 6,
     flexWrap: 'wrap',
     flexDirection: "row",
+    
     gap: 10,
     borderTopEndRadius: 30,
     borderTopStartRadius: 30,
@@ -273,7 +274,7 @@ const styles = StyleSheet.create({
     paddingBottom: 40,
     paddingHorizontal: 15,
     paddingTop: 10,
-    backgroundColor: "#282c36"
+    backgroundColor: "#272b34"
   },
   column: {
     flexDirection: "column",
